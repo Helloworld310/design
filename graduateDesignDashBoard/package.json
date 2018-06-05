@@ -1,0 +1,29 @@
+{
+  "name": "graduatedesigndashboard",
+  "version": "1.0.0",
+  "description": "dashboard",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.coding.net/LittleBitch/graduateDesignDashBoard.git"
+  },
+  "author": "littleb",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "captchapng": "0.0.1",
+    "crypto": "^1.0.1",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-bodyparser": "^4.2.0",
+    "koa-cors": "0.0.16",
+    "koa-router": "^7.4.0",
+    "lodash": "^4.17.5",
+    "mysql2": "^1.5.2",
+    "sequelize": "^4.34.1",
+    "utility": "^1.13.1"
+  }
+}
