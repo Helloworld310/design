@@ -6,4 +6,4 @@ create table albums (
   time varchar (20) not null,
   avatar varchar (100) not null,
   primary key (id)
-) engine=innodb;
+) engine=innodb default charset=utf8;

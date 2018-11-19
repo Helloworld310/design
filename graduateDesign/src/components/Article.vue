@@ -545,7 +545,7 @@ export default {
     }
     .article-content {
       height: 150px;
-      width: 555px;
+      width: 700px;
       margin: -18px 20px 0;
       .text {
         .main-title {

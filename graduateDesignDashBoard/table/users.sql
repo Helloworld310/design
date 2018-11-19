@@ -3,4 +3,4 @@ create table users (
   account varchar (50) not null,
   password varchar (50) not null,
   primary key (id)
-) engine=innodb;
+) engine=innodb default charset=utf8;

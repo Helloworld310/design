@@ -1,7 +1,7 @@
 <template>
   <div class="index" :class="{'detail-bg': display === 'detail'}">
     <div class="carousel" v-if="display === 'list'">
-      <el-carousel trigger="click" height="215px">
+      <el-carousel trigger="click" height="300px">
         <el-carousel-item v-for="item in items" :key="item">
           <img :src="item" alt="轮播图">
         </el-carousel-item>
@@ -93,9 +93,9 @@ export default {
   data () {
     return {
       items: [
-        'https://luojc.cn/designImg/upload_e286a5ccd66af205ac28df89de2dcdf2.jpg',
-        'https://luojc.cn/designImg/upload_93ffce61050cd7d7de354bfea9cf4359.jpg',
-        'https://luojc.cn/designImg/upload_94293349f5f355cc803802967188f900.jpg'
+        'http://luojc.cn/images/bg1.jpg',
+        'http://luojc.cn/images/bg2.jpg',
+        'http://luojc.cn/images/bg3.jpg'
       ],
       aboutInfo: [
         {key: '姓名:', name: '罗金城'},
@@ -224,7 +224,7 @@ export default {
   .carousel {
     img {
       width: 100%;
-      height: 215px;
+      height: 300px;
     }
   }
   .content {

@@ -2,12 +2,12 @@
   <div id="app">
     <div class="header"></div>
     <div class="app-content">
-    <side-bar></side-bar>
-    <div class="overview">
-      <keep-alive>
-        <router-view></router-view>
-      </keep-alive>
-    </div>
+      <side-bar></side-bar>
+      <div class="overview">
+        <keep-alive>
+          <router-view></router-view>
+        </keep-alive>
+      </div>
     </div>
     <div class="footer">
       <p>Copyright © 2017 LittleBitch - 粤ICP备 17071196 号</p>
@@ -44,12 +44,12 @@ body {
   margin: 20px auto 0;
   min-width: 1200px;
   .app-content {
-    width: 1150px;
+    width: 1250px;
     display: flex;
     margin: 0 auto;
   }
   .overview {
-    width: 860px;
+    width: 1000px;
     min-height: 1000px;
     // overflow: hidden;
     margin-left: 20px;

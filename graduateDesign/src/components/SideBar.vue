@@ -28,7 +28,7 @@
     </div>
     <div class="sticky">
       <div class="avatar">
-        <img src="//img.luojc.cn/images/LittleBitch.jpg" alt="头像">
+        <img src="//luojc.cn/images/LittleBitch.jpg" alt="头像">
         <div class="dashboard-stats" v-show="getLoginStatus">
           <div v-for="(item, i) in stats" :key="i" class="dashboard-item">
             <span class="num">{{ item.num }}</span>
@@ -37,7 +37,7 @@
         </div>
         <div class="link">
           <a href="https://github.com/TingYuLC" target="_blank"><img :src="github" alt="github"><span>Github</span></a>
-          <a href="https://luojc.cn/" target="_blank"><img :src="resume" alt="resume"><span>Resume</span></a>
+          <a href="http://luojc.cn/" target="_blank"><img :src="resume" alt="resume"><span>Resume</span></a>
         </div>
       </div>
       <div class="notice">
